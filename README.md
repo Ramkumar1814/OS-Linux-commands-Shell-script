@@ -613,20 +613,24 @@ chmod 777 scriptest.sh
  
 ls file1
 ## OUTPUT
+file1
 
 echo $?
 ## OUTPUT 
+0
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+ 0
  
 abcd
  
 echo $?
  ## OUTPUT
-
+0
 
  
 # mis-using string comparisons
